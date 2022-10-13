@@ -1,0 +1,116 @@
+/* GENERAL */
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  
+  /* HEADER */
+  
+  header img {
+    width: 100px;
+  }
+  
+  header .lf-logo {
+    display: none;
+    width: 30px;
+  }
+  
+  header .icons {
+    width: 130px;
+    cursor: pointer;
+  }
+  
+  header {
+    height: 50px;
+    background-color: #F8F8FB;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header .lf-navbar {
+    flex-wrap: nowrap;
+  }
+  
+  header .lf-navbar form {
+    width: 80%;
+    height: 30px;
+    
+  }
+  
+  header .lf-navbar input {
+    border-radius: 0;
+    border-left: none;
+    padding-left: 4px;
+    cursor: pointer;
+  }
+  
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+  
+  header .lf-navbar form i.lf-lens {
+    cursor: pointer;
+    font-size: 0.8rem;
+    background-color: #FFFEFF;
+    padding-top: 7px;
+    padding-left: 10px;
+    border-top: 1px solid #CED4DA;
+    border-bottom: 1px solid #CED4DA;
+    border-left: 1px solid #CED4DA;
+  }
+  
+  header .dropdown-menu[data-bs-popper].lf-dropdown {
+    left: auto;
+    right: 4px;
+    top: 45px;
+  }
+  
+  header ul.dropdown-menu.lf-dropdown {
+   font-size: 0.8rem;
+  }
+  
+  header .dropdown-toggle::after {
+    display: none;
+  }
+  
+  
+  
+  
+  /* MAIN */
+  
+  main {
+    height: calc(100vh - 50px);
+    font-family: 'Roboto', sans-serif;;
+  }
+  
+  /* SIDEBAR */
+  
+  main .bar {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  main .bar {
+    width: 115px;
+    height: calc(100vh - 50px);
+    background-color: #061E34; 
+    background-image: url('../img/sidebar-bg.png');
+  }
+  
+  main .bar span {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  
+  
