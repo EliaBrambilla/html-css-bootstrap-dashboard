@@ -112,5 +112,59 @@ body {
     font-weight: lighter;
     cursor: pointer;
   }
+
+  /* TOP */
+
+main .content h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #272630;
+  }
+  
+  
+  main .content {
+    width: calc(100% - 115px);
+    height: calc(100vh- 50px);
+    background-color: #FFFFFF;
+    overflow: auto;
+  } 
+  
+  main .content nav {
+    height: 90px;
+    background-color: #1B73E8;
+    color: #F4F4F7;
+  }
+  
+  main .content nav p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  
+  main .content nav p.num {
+    font-size: 1.5rem;
+  }
+  
+  main .content nav span {
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 400;
+    background-color: #155CBA;
+    padding: 3px 6px;
+    border-radius: 10px;
+  }
+  
+  main .content nav i {
+    display: none;
+    font-size: 0.7rem;
+  }
+  
+  main .content nav i.back {
+    background-color: #155CBA;
+    padding: 3px 4px;
+    border-radius: 50%;
+  }
+  
+  
   
   
