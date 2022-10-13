@@ -165,6 +165,85 @@ main .content h3 {
     border-radius: 50%;
   }
   
+  /* BOTTOM */
+
+/* DROPDOWN MENU */
+
+main .content .drop {
+    width: 100%;
+    height: 45px;
+    background-color: #F7F7F7;
+    border: 1px solid #dad8d8;
+    border-bottom: 0;
+  }
+  
+  main .content .drop button {
+    background-color: #F7F7F7;
+    color: #155CBA;
+  }
+  
+  main .content .drop .dropdown-toggle::after {
+    display: none;
+  }
+  
+  main .content .drop .dropdown-menu {
+    min-width: 30rem;
+  }
+  
+  
+  /* TABLE */
+  
+  main .content table.lf-table > :not(caption) > * > * {
+    padding: 0.3rem 0.3rem;
+  }
+  
+  main .content table.lf-table th {
+    width: 100px;
+  }
+  
+  main .content table.lf-table th,
+  main .content table.lf-table td,
+  main .content table.lf-table span{
+    font-size: 0.8rem;
+  }
+  
+  main .content table.lf-table td,
+  main .content table.lf-table span{
+    text-align: center;
+  }
+  
+  main .content table.lf-table tr.up {
+    border-bottom: 1px solid black;
+  }
+  
+  main .content table.lf-table th i {
+    background-color: #F26453;
+    padding: 6px 5px;
+    color: #F8F8FB;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    margin-right: 3px;
+  }
+  
+  main .content table.lf-table th span {
+    font-weight: 400;
+  }
+  
+  main .content table.lf-table td i {
+    color: #6B757D;
+    padding: 6px;
+    border: 1px solid #6B757D;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  main .content table.lf-table td span {
+    background-color: #1A8754;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #F8F8FB;
+  }
   
   
   
